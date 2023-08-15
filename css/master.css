@@ -1,0 +1,273 @@
+/* QUIZ STYLES */
+/* Styles to prettify the quiz page */
+
+@font-face {
+    font-family: "TradeGothic";
+    src: url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic.eot");
+    src: url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic.eot?#iefix") format("embedded-opentype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic.woff") format("woff"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic.ttf") format("truetype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic.svg#TradeGothic") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family:"TradeGothicBold";src:url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold.eot");src:url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold.eot?#iefix") format("embedded-opentype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold.woff") format("woff"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold.ttf") format("truetype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold.svg#TradeGothic") format("svg");font-style:normal;font-weight:400;
+}
+
+@font-face {
+    font-family:"TradeGothicBoldObl";src:url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold-obl.eot");src:url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold-obl.eot?#iefix") format("embedded-opentype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold-obl.woff") format("woff"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold-obl.ttf") format("truetype"),url("http://www.umc.org/shared-assets/css/font/trade-gothic/trade-gothic-bold-obl.svg#TradeGothic") format("svg");font-style:normal;font-weight:400;
+}
+
+html {
+    background: #fff;
+}
+
+body {
+    border: 0px;
+    border-top: none;
+    background: #fff;
+    color: #555;
+    font-family: "Arial","Helvetica", sans-serif;
+    font-size: 20px!important;
+    /* height: 42px; */
+    line-height: 1.5em;
+    margin: 0 auto; 
+    padding-left: 22px;
+    padding-right: 20px;
+    width: 90%;
+}
+
+p   {
+    font-size: 22px!important;
+    line-height: 1.5em;
+    margin-bottom: 22px;
+    padding-right: 10px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+    letter-spacing: -.06em;
+    font-family: "TradeGothicBold","Arial","Helvetica", sans-serif;
+    font-weight: bold;
+}
+h1 {
+
+    font-size: 32px;
+    margin: 5px 0 32px;
+}
+h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+h3 {
+    font-size: 24px!important;
+    line-height: 1.5em;
+    margin: 15px 0 10px;
+}
+h4 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+h5 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+h6 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+strong { font-weight: bold; }
+em { font-style: italic; }
+ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+ol li { list-style-type: decimal; margin-left: 20px; }
+a { color: #e4002b; font-weight: normal; text-decoration: none; }
+
+.button {
+border:0;
+background-color:#e4002b;
+color:white;
+cursor: pointer;
+float: left;
+font-family: "TradeGothicBold","Arial","Helvetica", sans-serif;
+font-size: 24px!important;
+font-weight: 400;
+line-height: 1.5em;
+margin: 20px 20px 0 0;
+padding: 14px 15px 10px;
+position: relative;
+text-decoration: none;
+text-transform: uppercase;
+width: auto;
+z-index: 20;
+}
+
+.button:hover {
+    background-color: #c91E20;
+}
+
+.startQuiz {
+    margin-top: 40px;
+}
+
+.tryAgain {
+    float: none;
+    margin: 20px 0;
+    z-index: 26;
+}
+
+/* clearfix */
+.quizArea, .quizResults {
+    zoom: 1;
+    padding: 10px;
+    margin: 0 auto;
+}
+.quizArea:before, .quizArea:after, .quizResults:before, .quizResults:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    /*font-size: 0; */
+}
+.quizArea:after, .quizResults:after {
+    clear: both;
+}
+
+.questionCount {
+    font-size: 24px!important;
+    line-height: 1.5em;
+    font-style: italic;
+}
+.questionCount span {
+    font-weight: bold;
+    font-size: 24px!important;
+    line-height: 1.5em;
+}
+
+ol.questions {
+    margin-top: 20px;
+    margin-left: 0;
+    z-index: 21;
+}
+ol.questions li {
+    margin-left: 0;
+    margin-bottom: 30px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+    z-index: 22;
+}
+
+ul.answers {
+    margin-left: 35px;
+    margin-bottom: 20px;
+    text-indent: -26px; /* Added to indent longer answers 2014-12-11 */
+    z-index: 23;
+}
+
+ul.responses li {
+    margin: 10px 20px 20px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+ul.responses li p span {
+    display: block;
+    font-weight: bold;
+    font-size: 24px!important;
+    line-height: 1.5em;
+   
+}
+.complete ul.answers li.correct, ul.responses li.correct p span {
+    color: #6C9F2E;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+
+ul.answers li.correct, ul.responses li.correct p span {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+
+ul.responses li.incorrect p span {
+    color: #333;
+    padding-bottom: 20px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+
+ul.answers li.correct, ul.responses li.correct h3 {
+    color: steelblue;
+    padding-bottom: 20px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+
+ul.responses li.incorrect h3 {
+    color: #c91e20;
+    padding-bottom: 20px;
+    font-size: 22px!important;
+    line-height: 1.5em;
+}
+
+.quizResults h3 {
+    margin: 0;
+   
+    
+}
+.quizResults h3 span {
+    font-weight: normal !important;
+     color: steelblue;
+    /* font-style: italic; */
+}
+
+.quizResults h4 {
+    margin: 0;
+    padding-top: 10px;
+}
+.quizResults h4 span {
+    font-weight: normal !important;
+    font-size: 22px !important;
+    letter-spacing: 0em !important;
+    font-style: italic; 
+    color: #333;
+}
+
+
+.quizResults p {
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px!important;
+    line-height: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.quizResults p span {
+    font-family: "Arial","Helvetica", sans-serif !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    line-height: 1.5em;
+    font-style: italic; 
+}
+
+.quizResultsCopy {
+    clear: both;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+.quizResultsCopy p {
+    font-weight: normal !important;
+    font-size: 22px !important;
+    line-height: 1.5em;
+    /* font-style: italic; */
+}
+
+table {
+  margin: 10px 0px 0px 0px;
+  font-family: "Arial","Helvetica", sans-serif !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+}
