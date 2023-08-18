@@ -23,7 +23,7 @@
                 completeQuizText: 'Get your results!',
                 tryAgainText: 'Try again!',
                 questionCountText: 'Question %current of %total',
-                preventUnansweredText: 'Please select an answer.',
+                preventUnansweredText: 'You must select an answer. Please try again.',
                 questionTemplateText:  '%count. %text',
                 scoreTemplateText: '%score correct out of %total',
                 nameTemplateText:  '<span>Quiz: </span>%name',
