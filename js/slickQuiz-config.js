@@ -45,17 +45,17 @@ var quizJSON = {
         { // Question 4
             "q": "In what country did John and Charles Wesley live?",
             "a": [
-                {"option": "a.	England",                              "correct": true},
-                {"option": "b.	Ireland",                              "correct": false},
-                {"option": "c.	Scotland",                              "correct": false},
-                {"option": "d.	America",                 "correct": false} //no comma here
+                {"option": "a.	England", "correct": true},
+                {"option": "b.	Ireland", "correct": false},
+                {"option": "c.	Scotland", "correct": false},
+                {"option": "d.	America", "correct": false} //no comma here
             ],
             "learnMore": "<strong>Correct answer: a</strong>. The Wesleys lived in England, where the family home still stands in Epworth." // no comma here
         },
         { // Question 5
             "q": "What catastrophic event happened to John Wesley when he was 5 years old?",
             "a": [
-                {"option": "a.	He was bitten by a snake while playing outside in the fields.",  "correct": false},
+                {"option": "a.	He was bitten by a snake while playing outside in the fields.", "correct": false},
                 {"option": "b.	He ran away from home and was lost for days.", "correct": false},
                 {"option": "c.	His home caught fire and he was saved from the flames.", "correct": true},
                 {"option": "d.	He fell into a nearby lake and almost drowned.", "correct": false} // no comma here
@@ -65,30 +65,30 @@ var quizJSON = {
         { // Question 6
             "q": "What Georgia city did John Wesley visit in 1735?",
             "a": [
-                {"option": "a.	Athens",   "correct": false},
-                {"option": "b.	Atlanta",   "correct": false},
-                {"option": "c.	Tybee Island",       "correct": false},
-                {"option": "d.	Savannah",     "correct": true} //no comma here
+                {"option": "a.	Athens", "correct": false},
+                {"option": "b.	Atlanta", "correct": false},
+                {"option": "c.	Tybee Island", "correct": false},
+                {"option": "d.	Savannah", "correct": true} //no comma here
             ],
             "learnMore": "<strong>Correct answer: d</strong>. John and Charles Wesley sailed from England in 1735 to the colony of Georgia, where they lived for one year in Savannah. John's primary role while in Savannah was to evangelize Native Peoples. While there, Wesley met Moravians, who greatly influenced his faith." // no comma here
         },
         { // Question 7
             "q": "What happened to John Wesley's heart on May 24, 1738?" ,
             "a": [
-                {"option": "a.	It was strangely warmed by the understanding of God's love and grace for him",     "correct": true},
-                {"option": "b.	He had a heart attack while riding his horse to a church",     "correct": false},
-                {"option": "c.	His heart was broken when the love of his life rejected him",     "correct": false},
-                {"option": "d.	During open heart surgery, his heart stopped and he had a near death experience.",    "correct": false} // no comma here
+                {"option": "a.	It was strangely warmed by the understanding of God's love and grace for him", "correct": true},
+                {"option": "b.	He had a heart attack while riding his horse to a church", "correct": false},
+                {"option": "c.	His heart was broken when the love of his life rejected him", "correct": false},
+                {"option": "d.	During open heart surgery, his heart stopped and he had a near death experience.", "correct": false} // no comma here
             ],
             "learnMore": "<strong>Correct answer: a</strong>. John Wesley attended a religious service on Aldersgate Street on May 24, 1738, where he described \"my heart strangely warmed\" at the recognition of God's love and grace for him and the assurance of his salvation. United Methodists commemorate John Wesley's experience on Aldersgate Day each year on May 24 (of the Sunday closest to the date)."
         },
         { // Question 8
             "q": "What university were John and Charles Wesley attending when they started the Holy Club?",
             "a": [
-                {"option": "a.	Cambridge University",          "correct": false},
-                {"option": "b.	University of Georgia",          "correct": false},
-                {"option": "c.	Yale University",          "correct": false},
-                {"option": "d.	Oxford University",     "correct": true} // no comma here
+                {"option": "a.	Cambridge University", "correct": false},
+                {"option": "b.	University of Georgia", "correct": false},
+                {"option": "c.	Yale University", "correct": false},
+                {"option": "d.	Oxford University", "correct": true} // no comma here
             ],
             "learnMore": "<strong>Correct answer: d</strong>. John and Charles Wesley gathered fellow students at Oxford University to meet and pray together and to minister to townspeople. The group became known as the Holy Club." // no comma here
         }// no comma here
