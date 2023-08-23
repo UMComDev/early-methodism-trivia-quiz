@@ -7,9 +7,9 @@ var quizJSON = {
         "name":    "",
         "main":    "",
         "results": "Thanks for taking our quiz! Share this quiz with your friends and family.",
-        "level1":  "Nice job!",
-        "level2":  "Good effort!",
-        "level3":  "Needs a little work." // no comma here
+        "level1":  "Great! You are a Wesley scholar in the making!",
+        "level2":  "Nothing average about you! You obviously have paid attention to Methodist history facts!",
+        "level3":  "There's potential here. You have the beginnings of a solid history foundation!" // no comma here
     },
     "questions": [
         { // Question 1
@@ -20,7 +20,7 @@ var quizJSON = {
                 {"option": "c.	John Wesley", "correct": true},
                 {"option": "d.	King George III of England", "correct": false} // no comma here
             ],
-            "learnMore": "<strong>Correct answer: c</strong>. John Wesley (1703-1792) is known as the founder of the Methodist movement." // no comma here
+            "learnMore": "<strong>Correct answer: c</strong>. John Wesley (1703-1791) is known as the founder of the Methodist movement." // no comma here
         },
         { // Question 2
             "q": "What is the name of John Wesley's brother who was a hymn writer and also instrumental (pun intended) in Methodism's founding?",
